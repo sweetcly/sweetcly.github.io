@@ -3,6 +3,7 @@
 
 
 <head>
+    <div id='loading' style='display: none'><img src="/medias/loading.gif" title="Loading" /></div>
     <meta charset="utf-8">
     <meta name="keywords" content="lu, 甜菜小站">
     <meta name="description" content="Wubba lubba dub dub">
@@ -30,7 +31,7 @@
     <script src="/libs/jquery/jquery.min.js"></script>
     <script src="SmoothScroll.js"></script>
     <script>SmoothScroll({ keyboardSupport: false })</script>
-    <div id='loading' style='display: none'><img src="/medias/loading.gif" title="Loading" /></div>
+    
     <script language='javascript' type='text/javascript'>
         //Before starting ajax request display the div (paste it in  the beginning of your ajax request function
         var loadingdiv = document.getElementById('loading');
@@ -39,7 +40,7 @@
         //execute the code below after the ajax request is complete
         var loadingdiv = document.getElementById('loading');
         loadingdiv.style.display = "none";
-        </script>
+    </script>
 <meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
