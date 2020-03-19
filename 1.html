@@ -261,22 +261,6 @@
 
         
     </nav>
-    <script>
-    
-        window.onload = function(){
-            var path = 'https://tcxzcc.gitee.io'; //这里要改成你博客的地址
-            var localhostItem = String(window.location).split(path)[1];
-            var LiNode = document.querySelectorAll('#menu > li > a')
-            
-            for(var i = 0; i< LiNode.length;i++){
-                var item = String(LiNode[i].href).split(path)[1];
-                if(item == localhostItem && item != undefined){
-                    LiNode[i].setAttribute('style','border-bottom:1px solid black');
-                }
-            }
-        };
-    
-    </script>
 
 </header>
 
@@ -913,15 +897,12 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
     <div class="container row center-align" style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
-            <span id="year">2020</span>
-            <a href="https://cdn.jsdelivr.net/gh/sweetcly/sweetcly.github.io" target="_blank">arnoex</a>
-            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
-            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <span id="year">2020&nbsp;|&nbsp;customized by <a href="https://beetcb.com/" target="_blank"><span id="beet">beet</span></a></span>
+
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank"><span class="power">Hexo</span></a>&nbsp;&&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank"><span class="power">matery</span></a>
             <br>
-            
             <script src="https://cdn.jsdelivr.net/gh/yremp/yremp-js@1.5/sakura.js"></script>
-            
-            <!--《添加网站运行时间 -->
+            <!--添加网站运行时间 -->
             <!--<br/>-->
             <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
             <script>
@@ -948,35 +929,18 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             snum = "0" + snum;
         }
         //说一句废话，<br>可用来换行
-        document.getElementById("timeDate").innerHTML = " ~~甜菜小站已平稳飞行~~   " + dnum + " 天 ";
-        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 喵~ <br> 感谢每位小甜菜的陪伴";
+        document.getElementById("timeDate").innerHTML = " ~~甜菜小屋已平稳飞行~~   " + dnum + " 天 ";
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 喵~ ";
     }
     setInterval("createtime()", 250);
 </script>
-<!-- 添加网站运行时间》 -->
-
-            
-            
-            
+        <br> <span id="thanks">感谢每位小甜菜的陪伴</span>&nbsp;<i class="fas fa-heart" style="color: red;" id="heart"></i>
+<!-- 添加网站运行时间》 -->     
         </div>
         <div class="col s12 m4 l4 social-link ">
-
-
     <a href="mailto:sweetcbebe@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
         <i class="fas fa-envelope-open"></i>
     </a>
-
-
-
-
-
-
-
-
-
-
-
-
 
 </div>
     </div>
