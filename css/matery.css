@@ -34,9 +34,10 @@
 }
 
 body {
-    background-color: #eaeaea;
+    /* 注釋點背景灰白 */
+    /* background-color: #eaeaea; */
     margin: 0;
-    color: #34495e;
+    color: #2d2e2e;
 }
 
 h1 {
