@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
 
-
+<div id='loading' style='display: none'><img src="/medias/loading.gif" title="Loading" /></div>
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="lu, 甜菜小站">
@@ -32,7 +32,15 @@
     <script>SmoothScroll({ keyboardSupport: false })</script>
     
 <meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
-
+<script language='javascript' type='text/javascript'>
+    //Before starting ajax request display the div (paste it in  the beginning of your ajax request function
+    var loadingdiv = document.getElementById('loading');
+    loadingdiv.style.display = "block";
+    
+    //execute the code below after the ajax request is complete
+    var loadingdiv = document.getElementById('loading');
+    loadingdiv.style.display = "none";
+    </script>
 
 <body>
     <header class="navbar-fixed">
