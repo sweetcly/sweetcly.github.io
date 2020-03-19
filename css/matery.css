@@ -403,12 +403,12 @@ header .side-nav .social-link {
     box-shadow: none;
 }
 
-.cover-btns a:hover {
-    border: 1px solid #da55c8;
+/* .cover-btns a:hover { */
+    /* border: 1px solid #da55c8;
     /* background-color: #f44336; */
-    box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42),
-            0 4px 23px 0 rgba(0, 0, 0, 0.12),
-            0 8px 10px -5px rgba(233, 30, 99, 0.2);
+    /* box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42), */
+            /* 0 4px 23px 0 rgba(0, 0, 0, 0.12), */
+            /* 0 8px 10px -5px rgba(233, 30, 99, 0.2);  */
 }
 
 .cover-btns a i {
@@ -602,7 +602,7 @@ header .go-back i {
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 1.4em;
-    color: #eee;
+    color: rgb(41, 39, 39);
 }
 
 .bg-cover .post-title {
