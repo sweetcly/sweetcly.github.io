@@ -1,3 +1,10 @@
+/* 页面优雅下滑bug */
+main {
+    padding-top: 40px;
+}
+.content {
+    min-height: 500px;
+}
 #icp {
     color: #DFB4CE;
 }
