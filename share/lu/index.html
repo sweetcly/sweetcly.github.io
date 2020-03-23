@@ -22,7 +22,7 @@
     <div id="loading">
         <div id="loading-inner"></div>
     </div>
-
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
     <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
     <script src="/libs/jquery/jquery.min.js"></script>
-    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+
 
 
 <meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
@@ -352,6 +352,11 @@
                 
 
                 
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    1 分
+                </div>
+                
 
                 
             </div>
@@ -544,7 +549,7 @@
     <div id="rewardModal" class="modal">
         <div class="modal-content">
             <a class="close modal-close"><i class="fas fa-times"></i></a>
-            <h4 class="reward-title">请我喝杯咖啡，不不不，我会存着把cabin建地更好</h4>
+            <h4 class="reward-title">请我喝杯咖啡，不不不，我会存着把cabin建de更好</h4>
             <div class="reward-content">
                 <div class="reward-tabs">
                     <ul class="tabs row">
@@ -961,7 +966,7 @@
             + '来源: 甜菜cabin<br />'
             + '文章作者: beet<br />'
             + '文章链接: <a href="' + url + '">' + url + '</a><br />'
-            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+            + '本文章著作权归beet所有，任何形式的转载都请注明出处。';
 
         selection.selectAllChildren(newdiv);
         window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
@@ -1249,16 +1254,10 @@ $(function () {
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
+    <!-- 关闭loading 淡出 -->
     <script>
-        function closeDiv() {
-            document.getElementById('loading').style.visibility = 'hidden';
-        }
+        $("#loading").fadeOut(400);
     </script>
-        
-    <script>
-        closeDiv()
-    </script>
-
 </body>
 
 </html>

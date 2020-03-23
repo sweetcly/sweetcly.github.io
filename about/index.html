@@ -22,7 +22,7 @@
     <div id="loading">
         <div id="loading-inner"></div>
     </div>
-
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
     <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
     <script src="/libs/jquery/jquery.min.js"></script>
-    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+
 
 
 <meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
@@ -755,16 +755,10 @@ $(function () {
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
+    <!-- 关闭loading 淡出 -->
     <script>
-        function closeDiv() {
-            document.getElementById('loading').style.visibility = 'hidden';
-        }
+        $("#loading").fadeOut(400);
     </script>
-        
-    <script>
-        closeDiv()
-    </script>
-
 </body>
 
 </html>
