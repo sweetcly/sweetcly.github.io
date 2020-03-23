@@ -1,8 +1,8 @@
 /* 字体自定义修改 */
-@font-face {
+/* @font-face {
     font-family:'customisedfont';
     src: url(https://cdn.jsdelivr.net/gh/sweetcly/tcxzpic/GenJyuuGothic-P-Normal.ttf);
-    }
+    } */
 /* layout.ejs */
 /* 页面优雅下滑 */
 main {
