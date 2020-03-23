@@ -1247,21 +1247,14 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
     <script>
-
-        document.onreadystatechange = function () {
-
-            if (document.readyState !== "complete") {
-
-                document.querySelector("#loading").style.visibility = "hidden";
-
-
-            }
-
-        };
-
+        function closeDiv() {
+            document.getElementById('loading').style.visibility = 'hidden';
+        }
     </script>
-
-
+        
+    <script>
+        closeDiv()
+    </script>
 
 </body>
 
