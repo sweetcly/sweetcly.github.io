@@ -6,6 +6,10 @@
 /* layout.ejs */
 /* 页面优雅下滑 */
 /* loading */
+.content {
+    font-family: miranafont,"Hiragino Sans GB",STXihei,"Microsoft YaHei",SimSun,sans-serif;
+
+}
 #loading {
     position: fixed;
     top: 0;
