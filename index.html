@@ -3,7 +3,9 @@
 
 
 <head>
-
+    <div id="loading">
+        <div id="loading-inner"></div>
+    </div>
     <meta charset="utf-8">
     <meta name="keywords" content="甜菜cabin">
     <meta name="description" content="Wubba lubba dub dub">
@@ -30,10 +32,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
     <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
-    
+
 
 <meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
-
 
 <body>
     <header class="navbar-fixed">
@@ -776,13 +777,29 @@ $(function () {
     
 
     
-    
+
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
-    
+    <script>
+
+        document.onreadystatechange = function () {
+
+            if (document.readyState !== "complete") {
+
+                document.querySelector(
+
+                    "#loading").style.visibility = "hidden";
+
+
+            }
+
+        };
+
+    </script>
+
+
+
 </body>
 
 </html>
-
-
