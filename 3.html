@@ -37,9 +37,6 @@
         $("#loading").fadeOut(400);
     </script>
     </body>
-
-
-
 <meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 <body>
@@ -1103,7 +1100,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 
     <footer class="page-footer bg-color">
     
-        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+    <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
 <style>
     .aplayer .aplayer-lrc p {
         font-size: 12px;
@@ -1144,62 +1141,66 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
     <div class="container row center-align" style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
-            <span id="year">2020&nbsp;|&nbsp;customised by <a href="https://beetcb.com/" target="_blank"><span id="beet">beet</span></a></span>
+            <span id="year">2020&nbsp;|&nbsp;customised by <a href="https://beetcb.com/" target="_blank"><span
+                        id="beet">beet</span></a></span>
             <a href="http://www.beian.miit.gov.cn/" target="_blank"><span id="icp">&nbsp;鄂ICP备20003648号-1</span></a>
             <br>
-            
-            
+
+
             <script src="https://cdn.jsdelivr.net/gh/yremp/yremp-js@1.5/sakura.js"></script>
             <!--添加网站运行时间 -->
             <!--<br/>-->
             <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
             <script>
-                 var now = new Date();
+                var now = new Date();
 
-                 function createtime() {
-                 var grt = new Date("03/08/2020 03:08:38"); //此处修改你的建站时间或者网站上线时间 
+                function createtime() {
+                    var grt = new Date("03/08/2020 03:08:38"); //此处修改你的建站时间或者网站上线时间 
                     now.setTime(now.getTime() + 250);
                     days = (now - grt) / 1000 / 60 / 60 / 24;
-                         dnum = Math.floor(days);
-        hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
-        hnum = Math.floor(hours);
-        if (String(hnum).length == 1) {
-            hnum = "0" + hnum;
-        }
-        minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
-        mnum = Math.floor(minutes);
-        if (String(mnum).length == 1) {
-            mnum = "0" + mnum;
-        }
-        seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
-        snum = Math.round(seconds);
-        if (String(snum).length == 1) {
-            snum = "0" + snum;
-        }
-        //说一句废话，<br>可用来换行
-        document.getElementById("timeDate").innerHTML = " ~~甜菜小屋已平稳飞行~~   " + dnum + " 天 ";
-        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 喵~ ";
-    }
-    setInterval("createtime()", 250);
-</script>
-        <br> <span id="thanks">感谢每位小甜菜的陪伴</span>&nbsp;<i class="fas fa-heart" style="color: red;" id="heart"></i>
-        
-        <br>Powered by&nbsp;<a href="https://hexo.io/" target="_blank"><span class="power">Hexo</span></a>&nbsp;&&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank"><span class="power">matery</span></a>
-    
-<!-- 添加网站运行时间》 -->     
+                    dnum = Math.floor(days);
+                    hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
+                    hnum = Math.floor(hours);
+                    if (String(hnum).length == 1) {
+                        hnum = "0" + hnum;
+                    }
+                    minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
+                    mnum = Math.floor(minutes);
+                    if (String(mnum).length == 1) {
+                        mnum = "0" + mnum;
+                    }
+                    seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+                    snum = Math.round(seconds);
+                    if (String(snum).length == 1) {
+                        snum = "0" + snum;
+                    }
+                    //说一句废话，<br>可用来换行
+                    document.getElementById("timeDate").innerHTML = " ~~甜菜小屋已平稳飞行~~   " + dnum + " 天 ";
+                    document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 喵~ ";
+                }
+                setInterval("createtime()", 250);
+            </script>
+            <br> <span id="thanks">感谢每位小甜菜的陪伴</span>&nbsp;<i class="fas fa-heart" style="color: red;" id="heart"></i>
+
+            <br>Powered by&nbsp;<a href="https://hexo.io/" target="_blank"><span
+                    class="power">Hexo</span></a>&nbsp;&&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery"
+                target="_blank"><span class="power">matery</span></a>
+
+            <!-- 添加网站运行时间》 -->
         </div>
         <div class="col s12 m4 l4 social-link ">
-    <a href="mailto:sweetcbebe@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
-
-</div>
-    </div>
+            <a href="mailto:sweetcbebe@gmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我"
+                data-position="top" data-delay="50">
+                <i class="fas fa-envelope-open"></i>
+            </a>
+            <!-- 关闭loading 淡出 -->
+            <script>
+                $("#loading").fadeOut(400);
+            </script>
+            </body>
 </footer>
 
 <div class="progress-bar"></div>
-
-
 
     <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">
