@@ -19,23 +19,27 @@
 
     <title>test | 甜菜cabin</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/medias/favicon1.ico">
-    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
 
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
     <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
     <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
-    <div id="loading">
-        <div class="loadingImage"></div>
-    </div>
-    <script src="/libs/jquery/jquery.min.js"></script>
 
+    <script src="/libs/jquery/jquery.min.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
 
 
 <meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+<!-- 再加一个head用做loading -->
+
+<head>
+    <div id="loading">
+        <div id="loading-inner"></div>
+    </div>
+</head>
 
 <body>
 
