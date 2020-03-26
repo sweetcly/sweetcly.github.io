@@ -167,7 +167,4 @@ $(function () {
         }
     });
 });
-
-
-
 $("#loading").fadeOut(400);

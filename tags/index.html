@@ -30,6 +30,21 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
     <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script>
+        (function () {
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https') {
+                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+            }
+            else {
+                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
+    </script>
+
 
 
 <meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
@@ -257,11 +272,43 @@
             </div>
             <div class="tag-chips">
                 
+                
+                <a href="/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%9B%98-onedrive/" title="个人网盘 onedrive: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="个人网盘 onedrive" style="background-color: #F9EBEA;">个人网盘 onedrive
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
 </div>
 
+    
+    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud([{"text":"个人网盘 onedrive","weight":1,"link":"https://beetcb.com/tags/个人网盘-onedrive/"}], {
+        autoResize: true
+    });
+</script>
     
 
 </main>
