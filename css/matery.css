@@ -1065,7 +1065,7 @@ article .article-tags .chip {
     font-weight: 400;
     height: 25px;
     line-height: 24px;
-    color: #fff;
+    color: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
     border-radius: 15px;
     margin-right: 5px;
     margin-bottom: 2px;
