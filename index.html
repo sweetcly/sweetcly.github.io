@@ -266,13 +266,6 @@
 
 <div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
     
-        <div id="prev-cover" class="left waves-effect carousel-control">
-            <i class="icon fa fa-angle-left"></i>
-        </div>
-        <div id="next-cover" class="right waves-effect carousel-control">
-            <i class="icon fa fa-angle-right"></i>
-        </div>
-    
 
     <div class="carousel-item white white-text bg-cover about-cover">
         <div class="container">
@@ -352,7 +345,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col s10 offset-s1">
-                            <div class="title center-align">婆婆妈妈教你搭建甜菜一盘</div>
+                            <div class="title center-align">婆婆妈妈滴教你搭建甜菜一盘</div>
                             <div class="description center-align">
                                 
                                     基于onedrive大空间个人网盘搭建
@@ -393,7 +386,7 @@
         coverSlider.carousel({
             duration: Number('120'),
             fullWidth: true,
-            indicators: 'true' === 'true',
+            indicators: 'false' === 'true',
             onCycleTo() {
                 if (!initUserPressedOrDraggedActive) {
                     // console.log('initUserPressedOrDraggedActive')
@@ -405,32 +398,11 @@
 
         let carouselIntervalId;
         
-        // Loop to call the next cover article picture.
-        let autoCarousel = function () {
-            carouselIntervalId = setInterval(function () {
-                coverSlider.carousel('next');
-            }, 5000);
-        };
-        autoCarousel();
-        
 
         function restartPlay() {
             
-            clearInterval(carouselIntervalId);
-            autoCarousel();
-            
         };
 
-        
-        // prev and next cover post.
-        $('#prev-cover').click(function () {
-            coverSlider.carousel('prev');
-            restartPlay();
-        });
-        $('#next-cover').click(function () {
-            coverSlider.carousel('next');
-            restartPlay();
-        });
         
     });
 </script>
@@ -468,9 +440,10 @@
                     <a href="/1.html">
                         <div class="card-image">
                             
-                            <img src="https://cdn.jsdelivr.net/gh/sweetcly/beetpic/1.cover.png" class="responsive-img" alt="婆婆妈妈教你搭建甜菜一盘">
                             
-                            <span class="card-title">婆婆妈妈教你搭建甜菜一盘</span>
+                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="婆婆妈妈滴教你搭建甜菜一盘">
+                            
+                            <span class="card-title">婆婆妈妈滴教你搭建甜菜一盘</span>
                         </div>
                     </a>
 
