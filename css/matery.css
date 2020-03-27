@@ -960,10 +960,8 @@ article .article-tags .chip {
     margin: 2px;
     font-size: 0rem;
     font-weight: 400;
-    height: 22px;
-    line-height: 22px;
-    color: #fff;
-    border-radius: 10px;
+    height: 0px;
+    line-height: 0px;
 }
 
 .prev-next {
