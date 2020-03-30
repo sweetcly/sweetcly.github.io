@@ -3,12 +3,6 @@
     font-family:'customisedfont';
     src: url(https://cdn.jsdelivr.net/gh/sweetcly/tcxzpic/GenJyuuGothic-P-Normal.ttf);
     } */
-/* 隐藏滚动条 */
-::-webkit-scrollbar
-{ 
-	width: 0px;
-	height: 0px;
-}
 /* loading matery.js */
 #loading {
     position: fixed;
